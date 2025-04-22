@@ -20,4 +20,7 @@ List color palette used and rationale for top level layout decisions. Outline Da
 
 ### Members & Responsibilities
 
-List all members and their roles
+Terry Walls: Scrum Master
+Ivy Ditzenberger: Analyst
+Charley Corneil: President
+Eyanla Garica-Arnold: Designer
