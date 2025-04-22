@@ -6,8 +6,6 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Live Link
 
-[Home Page](https://url.com)
-
 ### Key Takeaways
 
 Understanding of why we are doing this project
