@@ -16,7 +16,8 @@ List core webpages and briefly describe the page of them
 
 ### Design Choices
 
-List color palette used and rationale for top level layout decisions. Outline Database table design choice with rationale.
+- gallery site that features popular mythological creatures from various folklore including creatures such as bigfoot, jersey devil, windigo, etc the site will imclude a quiz at the end of each page that quizes the users on their knowledge. the color pallet will resemble a dark and mystical vibe with muted green blue and black tones
+
 
 ### Members & Responsibilities
 
