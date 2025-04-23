@@ -11,7 +11,7 @@ Pages would have a brief quiz that tests the user's understanding of the conten
 [Coming Soon](https://url.com)
 
 ## Key Takeaways
-From this project, we hope to provide a smooth, unique, and engaging experience for users that are interested in folklore and mythology. Through this, we hope to fine tune our skills in creating dynamic interactive webpages and ablility to work within a team.
+From this project, we hope to provide a smooth, unique, and engaging experience for users that are interested in folklore and mythology. In doing so, we hope to fine tune our skills in creating dynamic interactive webpages and ability to work within a team.
 
 
 ## Core Webpages
