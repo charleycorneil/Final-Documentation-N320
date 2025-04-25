@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-Our project is an interactive website that discusses myths and folklore, focusing on cryptids. Through a region-based system or point-and-click map, visitors can explore a variety of species on this instructional website. Pop-up facts or infographics regarding particular cryptids, such Bigfoot or the Jersey Devil,  will be displayed.
+Our project is an interactive website that discusses myths and folklore, focusing on cryptids. Through a region-based system or point-and-click map, visitors can explore a variety of species on this instructional website. Pop-up facts or infographics regarding particular cryptids, such as Bigfoot or the Jersey Devil,  will be displayed.
 
 Pages would have a brief quiz that tests the user's understanding of the content in order to improve user engagement. The project's goal is to combine interactive elements, education, and storytelling in an aesthetic that is appealing. Our group decided on this subject because of an interest with folklore and wanted to produce an entertaining and educational display.
 -charley
@@ -17,7 +17,9 @@ From this project, we hope to provide a smooth, unique, and engaging experience 
 
 ## Core Webpages
 
-List core webpages and briefly describe the page of them
+MAP- The map will display different areas that can be clicked on. Clicking on these areas would take the user to a cryptid that resides there.
+
+CRYPTIDS- Cryptid pages can be accessed when clicking on a certain area on the map. These pages will display the cryptid that lives there, along with information about them. Clicking on certain things on the page will load pop-ups, displaying extra information or a quiz based on the cryptid
 
 ## Design Choices
 
