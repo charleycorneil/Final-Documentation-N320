@@ -1,0 +1,23 @@
+{
+  "name": "final-documentation-n320",
+  "version": "1.0.0",
+  "description": "Our project is an interactive website that discusses myths and folklore, focusing on cryptids. Through a region-based system or point-and-click map, visitors can explore a variety of species on this instructional website. Pop-up facts or infographics regarding particular cryptids, such as Bigfoot or the Jersey Devil,  will be displayed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charleycorneil/Final-Documentation-N320.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charleycorneil/Final-Documentation-N320/issues"
+  },
+  "homepage": "https://github.com/charleycorneil/Final-Documentation-N320#readme",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
+}
