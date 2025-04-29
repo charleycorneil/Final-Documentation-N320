@@ -22,7 +22,7 @@ function popquizW() {
   let question3 = prompt(`Which weather is often linked to the Wendigo?
     \n 1. hot and sunny
     \n 2. wet and rainy
-    \n 2. snowy and cold`);
+    \n 3. snowy and cold`);
   if (question3 === "3") {
     score++;
   }
