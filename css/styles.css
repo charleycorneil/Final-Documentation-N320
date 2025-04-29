@@ -87,3 +87,12 @@ nav {
   font-size: 30px;
   border-radius: 20px;
 }
+#quizW {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 20px;
+}
