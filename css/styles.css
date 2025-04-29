@@ -70,14 +70,13 @@ a {
   }
 
   #mmpp {
-    position: absolute;
     font-size: 50px;
     text-align: center;
-    margin-left: 500px;
     margin-top: 270px;
     font-weight: bold;
-    opacity: 70%;
+    opacity: 50%;
     color: aliceblue;
+    cursor: pointer;
   }
 
   #quiz {
