@@ -58,8 +58,13 @@ body {
 
 nav {
   background-color: black;
+  height: 60px;
+  width: auto;
+  font-size: 30px;
   text-align: center;
-  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12px;
 
   a {
     text-decoration: none;
