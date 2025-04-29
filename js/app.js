@@ -31,15 +31,15 @@ function popquiz() {
 }
 
 function comicInfo() {
-  alert("comic");
+  alert("During the 1960s, around the same time the first Mothman sighting was reported, the comic book/tv series Batman was very popular.Because of this, it is believed that Mothman got his name from a villian in the comic series named Killer Moth. The name Mothman was first recorded in local newspapers reporting the first ever sighting");
 }
 
 function photoInfo() {
-  alert("photo");
+  alert("In some areas, mothman has been known to be a harbour of bad news. This association is due to its link to the Silver Bridge collapse on December 15th, 1967. People claimed to see Mothman near the bridge and before its collapse, causing paranoia about other disasters that could be related to the mothman.");
 }
 
 function mothInfo() {
-  alert("moth");
+  alert("Mothman is a cryptid that orginates from West Virginian folklore. First being reported on November 15, 1966, it has been a staple in cryptid history ever since. Mothman is described as being a large, humanoid moth creatue with glowing red eyes. Orginally, it was decribed as bird-like in nature, as seen on the news article. The last main sighting occured on December 1967, with modern sightings being incredibly rare ");
 }
 
 // Map Hover Effects
