@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Griffin</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/griffin.js" defer></script>
+  </head>
+  <body class="griffin-page">
+    <nav>
+      <a href="mothman.html">Back to Mothman</a>
+    </nav>
+
+    <h1 id="mmpp" onclick="griffinInfo()">griffin</h1>
+
+    <div class="griffin-gallery">
+      <img
+        id="drawing"
+        onclick="griffinInfo()"
+        src="../imgs/griffin-drawing.jpg"
+        alt="Griffin Drawing"
+      />
+      <img
+        id="sculpture"
+        onclick="sculptureInfo()"
+        src="../imgs/griffin-sculpture.jpg"
+        alt="Griffin Sculpture"
+      />
+      <img
+        id="museum"
+        onclick="museumInfo()"
+        src="../imgs/griffin-museum.jpg"
+        alt="Griffin Artifact"
+      />
+    </div>
+
+    <button onclick="popquiz()" id="quiz">Take Quiz</button>
+  </body>
+</html>

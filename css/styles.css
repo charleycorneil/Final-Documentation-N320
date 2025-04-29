@@ -1,12 +1,12 @@
- * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
- height: 100%;
+  height: 100%;
 }
 
 h1,
@@ -16,75 +16,112 @@ h4,
 h5,
 h6,
 p {
- margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 body {
-    width: auto;
-    height: auto;
-    background-image: url("../imgs/newspaper.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 657px;
-  }
-  #moth {
-    position: absolute;
-    height: 600px;
-    padding-left: 290px;
-    opacity: 70%;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-  }
+  width: auto;
+  height: auto;
+  background-image: url("../imgs/newspaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 657px;
+}
+#moth {
+  position: absolute;
+  height: 600px;
+  padding-left: 290px;
+  opacity: 70%;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
 
-  #comic {
-    position: fixed;
-    height: 560px;
-    transform: rotate(15deg);
-    cursor: pointer;
-    bottom: 20px;
-    right: 80px;
+#comic {
+  position: fixed;
+  height: 560px;
+  transform: rotate(15deg);
+  cursor: pointer;
+  bottom: 20px;
+  right: 80px;
+}
 
-  }
+#photo {
+  position: fixed;
+  height: 300px;
+  transform: rotate(-15deg);
+  cursor: pointer;
+  top: 90px;
+  left: 40px;
+}
 
-  #photo {
-    position: fixed;
-    height: 300px;
-    transform: rotate(-15deg);
-    cursor: pointer;
-    top: 90px;
-    left: 40px;
-  }
+nav {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
 
-  nav {
-background-color: black;
-text-align: center;
-padding: 10px;
-
-a {
+  a {
     text-decoration: none;
     color: aliceblue;
     font-size: 30px;
+  }
 }
-  }
 
-  #mmpp {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 270px;
-    font-weight: bold;
-    opacity: 50%;
-    color: aliceblue;
-    cursor: pointer;
-  }
+#mmpp {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 270px;
+  font-weight: bold;
+  opacity: 50%;
+  color: aliceblue;
+  cursor: pointer;
+}
 
-  #quiz {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 30px;
-    border-radius: 20px;
-  }
+#quiz {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 20px;
+}
+/* Specific background for griffin page */
+body.griffin-page {
+  background-image: url("../imgs/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Griffin layout improvements */
+.griffin-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 80px 60px 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.griffin-gallery img {
+  height: 250px;
+  border: 4px solid #fdf6e3;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transform: rotate(-3deg);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.griffin-gallery img:nth-child(2) {
+  transform: rotate(3deg);
+}
+
+.griffin-gallery img:nth-child(3) {
+  transform: rotate(-2deg);
+}
+
+.griffin-gallery img:hover {
+  transform: scale(1.05);
+}
