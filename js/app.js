@@ -45,10 +45,10 @@ function mothInfo() {
 // Map Hover Effects
 document.querySelectorAll("area").forEach((area) => {
   area.addEventListener("mouseover", () => {
-    area.style.opacity = "0.7";
+    area.style.opacity = "0.7"; // Make area slightly transparent on hover
   });
 
   area.addEventListener("mouseout", () => {
-    area.style.opacity = "1";
+    area.style.opacity = "1"; // Reset opacity when mouse leaves the area
   });
 });
