@@ -7,29 +7,49 @@
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <h1>Explore Cryptids</h1>
-    <img src="../imgs/map.jpg" usemap="#cryptidMap" alt="Cryptid Map" />
+    <nav>
+      <a href="mothman.html">Mothman</a>
+      <a href="griffin.html">Griffin</a>
+      <a href="wendigo.html">Wendigo</a>
+    </nav>
 
-    <map name="cryptidMap">
-      <area
-        shape="rect"
-        coords="50,50,200,200"
-        alt="Mothman"
-        href="mothman.html"
+    <h1>Cryptid Map</h1>
+
+    <div class="map-container">
+      <img
+        src="../imgs/cryptid-map.jpg"
+        alt="Map of Cryptids"
+        usemap="#cryptid-map"
+        class="map-image"
       />
-      <area
-        shape="circle"
-        coords="300,300,50"
-        alt="Bigfoot"
-        href="bigfoot.html"
-      />
-      <area
-        shape="poly"
-        coords="400,100,450,150,500,100"
-        alt="Jersey Devil"
-        href="jerseydevil.html"
-      />
-      <!-- Add more areas for other cryptids -->
-    </map>
+
+      <map name="cryptid-map">
+        <area
+          shape="rect"
+          coords="100,100,200,200"
+          href="mothman.html"
+          alt="Mothman"
+          title="Mothman"
+        />
+        <area
+          shape="rect"
+          coords="300,150,400,250"
+          href="griffin.html"
+          alt="Griffin"
+          title="Griffin"
+        />
+        <area
+          shape="rect"
+          coords="500,200,600,300"
+          href="wendigo.html"
+          alt="Wendigo"
+          title="Wendigo"
+        />
+      </map>
+    </div>
+
+    <button onclick="takeQuiz()" id="quiz">Take Quiz</button>
+
+    <script src="../js/map.js"></script>
   </body>
 </html>
