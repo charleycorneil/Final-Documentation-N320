@@ -9,7 +9,7 @@ Pages would have a brief quiz that tests the user's understanding of the conten
 
 ## Live Link
 
-[Coming Soon](https://url.com)
+[Coming Soon](https://charleycorneil.github.io/Final-Documentation-N320/views/map.html)
 
 ## Key Takeaways
 
