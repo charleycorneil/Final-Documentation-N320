@@ -5,6 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cryptid Map</title>
     <link rel="stylesheet" href="../css/styles.css" />
+    <style>
+      body {
+        background-image: url("../imgs/dnd-map-tile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        margin: 20px 0;
+      }
+
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+      }
+
+      .map-gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        margin: 20px auto;
+        max-width: 1000px;
+      }
+
+      .map-gallery img {
+        width: 300px;
+        height: auto;
+        border: 3px solid #555;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .map-gallery img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #ffd700;
+      }
+
+      h1 {
+        margin-top: 20px;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 8px black;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -13,21 +68,21 @@
       <a href="wendigo.html">Wendigo</a>
     </nav>
 
-  <h1>Map of Cryptids</h1>
+    <h1>Map of Cryptids</h1>
 
-  <div class="map-gallery">
-    <a href="mothman.html">
-      <img src="../imgs/newspaper.jpg" alt="Mothman - Newspaper" />
-    </a>
-    <a href="griffin.html">
-      <img src="../imgs/background.png" alt="Griffin - Background" />
-    </a>
-    <a href="wendigo.html">
-      <img src="../imgs/pngtree-moss-covered-trail-in-a-forest-picture-image_2776133.jpg" alt="..." />
-
-    </a>
-  </div>
-</body>
-</html>
-
+    <div class="map-gallery">
+      <a href="mothman.html">
+        <img src="../imgs/newspaper.jpg" alt="Mothman - Newspaper" />
+      </a>
+      <a href="griffin.html">
+        <img src="../imgs/background.png" alt="Griffin - Background" />
+      </a>
+      <a href="wendigo.html">
+        <img
+          src="../imgs/pngtree-moss-covered-trail-in-a-forest-picture-image_2776133.jpg"
+          alt="..."
+        />
+      </a>
+    </div>
+  </body>
 </html>
